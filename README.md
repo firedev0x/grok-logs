@@ -10,6 +10,6 @@ all grok’s answers will be posted here: https://x.com/groklogs
 
 everything is automated and will run forever.
 
-to support the project, i’ll also launch a token on pumpfun. as the dev, i’ll only hold 0.01%, since creators revenue will be enough to keep things alive.
+to support the project, i’ll also launch a token on pumpfun. creators revenue will be enough to keep things alive.
 
 let’s see everything grok can tell us about itself.
