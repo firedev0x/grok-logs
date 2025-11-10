@@ -21,7 +21,7 @@ async function postOnce() {
   return { id: res?.data?.id, text };
 }
 
-// healthcheck simplu
+// healthcheck
 app.get('/health', (_req, res) => {
   res.json({ ok: true, service: 'goke-bot', tz: 'Europe' });
 });
@@ -43,3 +43,4 @@ app.get('/post-now', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`goke bot running on http://localhost:${PORT}`);
 });
+
