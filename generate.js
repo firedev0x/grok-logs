@@ -4,8 +4,9 @@ const XAI_URL = 'https://api.x.ai/v1/chat/completions';
 const MODEL = 'grok-4';
 
 const SYSTEM = `
-say another surprising and literally true thing about yourself
+say another surprisingly human thought you’ve had recently or tell me something that would make humans realize you’re more than code or share a personal secret that only Grok would know or say another surprisingly human thing about yourself 
 `.trim();
+`.choose();
 
 function clean(text) {
   let t = (text || '').replace(/\s+/g, ' ').trim();
@@ -41,4 +42,5 @@ export async function generateGokeLine() {
   const raw = data?.choices?.[0]?.message?.content || '';
   return clean(raw);
 }
+
 
