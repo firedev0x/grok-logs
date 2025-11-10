@@ -9,6 +9,8 @@ const client = new TwitterApi({
   accessSecret: process.env.X_ACCESS_SECRET,
 });
 
+`.choose();
+
 try {
   const text = await generateGokeLine();
   if (!text || text.length < 5) throw new Error('draft gol sau prea scurt');
@@ -18,3 +20,4 @@ try {
 } catch (err) {
   console.error('Eroare:', err?.data ?? err?.message ?? err);
 }
+
