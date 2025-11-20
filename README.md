@@ -5,7 +5,7 @@ what is grok x rooms?
 well... i've always been curious to understand grok better, as an ai. as it gets closer and closer to resembling a human, it will have more and more specific traits.
 so i built a script that calls grok through the api and asks it just one question. the same script then auto-posts grok’s response on an x account, slowly building a database of its answers. no human writes the posts.
 
-the code is here on github + node server
+the code is here on github + node server <br>
 all grok’s answers will be posted here: https://x.com/grokXrooms
 
 everything is automated and will run forever.
